@@ -1,0 +1,48 @@
+/* Estilos básicos para el programa de contar números */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #00796b;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#resultadoCuenta {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+}

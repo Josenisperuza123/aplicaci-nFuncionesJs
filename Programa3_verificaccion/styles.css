@@ -1,0 +1,48 @@
+/* Estilos básicos para el programa de verificación de número */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffe082;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #d32f2f;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #d32f2f;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #c62828;
+}
+
+#resultadoVerificar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d32f2f;
+}
